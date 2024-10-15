@@ -17,6 +17,20 @@ This project builds on [Caddy](https://github.com/caddyserver/caddy), a powerful
 
 ## Usage
 
+### Download the Makefile
+
+You can download the `Makefile` using `curl` or `wget`:
+
+```bash
+# Using curl
+curl -O https://raw.githubusercontent.com/Hansen333/caddy-automate/refs/heads/main/Makefile
+```
+
+```bash
+# Using wget
+wget https://raw.githubusercontent.com/Hansen333/caddy-automate/refs/heads/main/Makefile
+```
+
 ### Available Targets
 
 | Target      | Description                                                                                          |
