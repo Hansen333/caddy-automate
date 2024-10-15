@@ -90,6 +90,16 @@ This repository contains a `Makefile` that automates the process of building, te
 5. **Restarting**:
    The `restart` target restarts the Caddy service to apply changes or for troubleshooting.
 
+6. **`make all`:**
+   The `all` target runs the entire process in sequence: 
+   
+   - **Build**: It compiles the Caddy binary with the specified plugins.
+   - **Test**: It validates the new binary against the current configuration to ensure it’s functional.
+   - **Install**: If the test passes, the new binary is installed, and the old one is backed up.
+   - **Restart**: Finally, the Caddy service is restarted to apply the changes.
+   
+   `make all` ensures that every step is performed in order and no installation happens if the configuration test fails.
+
 ## License
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
