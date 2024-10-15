@@ -11,10 +11,9 @@ This repository contains a `Makefile` that automates the process of building, te
 
 ## Requirements
 
-- **xcaddy**: Used to build the Caddy server with custom plugins. You can install it by running:
-  ```bash
-  go install github.com/caddyserver/xcaddy/cmd/xcaddy@latest
-  ```
+- **xcaddy**: Used to build the Caddy server with custom plugins.
+
+  Follow the installation instructions for `xcaddy` in the official [xcaddy GitHub repository](https://github.com/caddyserver/xcaddy?tab=readme-ov-file#install).
 
 ## Usage
 
