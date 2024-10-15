@@ -11,9 +11,9 @@ This repository contains a `Makefile` that automates the process of building, te
 
 ## Requirements
 
-- **xcaddy**: Used to build the Caddy server with custom plugins.
+This project builds on [Caddy](https://github.com/caddyserver/caddy), a powerful, extensible, and easy-to-use web server written in Go.
 
-  Follow the installation instructions for `xcaddy` in the official [xcaddy GitHub repository](https://github.com/caddyserver/xcaddy?tab=readme-ov-file#install).
+- **xcaddy**: Used to build the Caddy server with custom plugins. Follow the installation instructions for `xcaddy` in the official [xcaddy GitHub repository](https://github.com/caddyserver/xcaddy?tab=readme-ov-file#install).
 
 ## Usage
 
@@ -99,6 +99,12 @@ This repository contains a `Makefile` that automates the process of building, te
    - **Restart**: Finally, the Caddy service is restarted to apply the changes.
    
    `make all` ensures that every step is performed in order and no installation happens if the configuration test fails.
+
+## Related Projects
+
+This project is built upon the [Caddy Web Server](https://github.com/caddyserver/caddy) and makes use of the [xcaddy](https://github.com/caddyserver/xcaddy) tool for building custom versions of Caddy with plugins.
+
+Caddy is a powerful, extensible, and easy-to-use web server written in Go. For more information about Caddy, check out the official [Caddy repository](https://github.com/caddyserver/caddy).
 
 ## License
 
